@@ -5,8 +5,8 @@ Tener un sistema en el cual se pueda realizar una venta de manera automatizada, 
 ## 🖇️Versionado 📌
 Usamos [SemVer](https://semver.org/) para el versionado. Para todas las versiones disponibles
 
-## Autores
- ** Marisol Núñez Monasterio **  - Developer - [Maiz28](https://github.com/Maiz28)
+## Autores 👩🏻‍💻
+ - **Marisol Núñez Monasterio**- Developer - [Maiz28](https://github.com/Maiz28)
 
 <p aling="center">
   <a></a>
