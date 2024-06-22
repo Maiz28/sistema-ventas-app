@@ -3,4 +3,4 @@
 Tener un sistema en el cual se pueda realizar una venta de manera automatizada, además, de tener el control de inventarios (entradas y salidas) y contar con la generación de reportes para un posterior analisis 
 
 ## 🖇️Versionado 📌
-Usamos [SemVer]()https://semver.org/). para el versionado. Para todas las versiones disponibles
+Usamos [SemVer](https://semver.org/). para el versionado. Para todas las versiones disponibles
