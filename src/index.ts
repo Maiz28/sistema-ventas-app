@@ -4,6 +4,8 @@ import cors from "cors";
 import swaggerUI from "swagger-ui-express";
 import swaggerDocs from "./routes/api.docs";
 import indexRoutes from "./routes/index.routes";
+import { authRules } from "./rules/auth.rules";
+import authRoutes from "./routes/auth.routes";
 
 class Server {
   //TODO: crear la instancia global de nuestra app.
@@ -40,6 +42,7 @@ class Server {
   private routes(): void {
     this.app.use("/api/docs", swaggerUI.serve, swaggerUI.setup(swaggerDocs));
     this.app.use("/api", indexRoutes);
+    this.app.use("/api/auth", authRoutes);
   }
 
   // TO DO: Generar un método para inicializar el servicio
