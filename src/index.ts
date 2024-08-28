@@ -6,6 +6,8 @@ import swaggerDocs from "./routes/api.docs";
 import indexRoutes from "./routes/index.routes";
 import { authRules } from "./rules/auth.rules";
 import authRoutes from "./routes/auth.routes";
+import userRoutes from "./routes/user.routes";
+import rolRoutes from "./routes/rol.routes";
 
 class Server {
   //TODO: crear la instancia global de nuestra app.
@@ -43,6 +45,8 @@ class Server {
     this.app.use("/api/docs", swaggerUI.serve, swaggerUI.setup(swaggerDocs));
     this.app.use("/api", indexRoutes);
     this.app.use("/api/auth", authRoutes);
+    this.app.use("/api/user", userRoutes);
+    this.app.use("/api/rol", rolRoutes);
   }
 
   // TO DO: Generar un método para inicializar el servicio
